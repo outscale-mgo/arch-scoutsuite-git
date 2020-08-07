@@ -1,0 +1,20 @@
+pkgbase = scoutsuite-git
+	pkgdesc = ScoutSuite is a security tool for cloud
+	pkgver = 0
+	pkgrel = 1
+	url = https://github.com/nccgroup/ScoutSuite
+	arch = any
+	license = GPL2
+	depends = python-dateutil
+	depends = python-netaddr
+	depends = python-sqlitedict
+	depends = python-cherrypy
+	depends = python-cherrypy-cors
+	depends = python-coloredlogs
+	depends = python-asyncio-throttle
+	optdepends = python-azure-cli
+	source = git://github.com/nccgroup/ScoutSuite.git
+	sha256sums = SKIP
+
+pkgname = scoutsuite-git
+
